@@ -2,7 +2,11 @@ import React from 'react'
 
 export const Header = () => {
   return (
-    <div>Header</div>
+    <header>
+        <div className='header-container'>
+            <h1><a href="/">MARVEL QUIZ</a></h1>
+        </div>
+    </header>
   )
 }
 
