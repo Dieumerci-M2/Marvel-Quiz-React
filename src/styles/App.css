@@ -112,3 +112,9 @@ footer{
 .startingImg {
   background-image: url(../images/xmen.png);
 }
+.leftGrief{
+  background-image: url(../images/wolverine.png), url(../images/griffes-gauche.png);
+}
+.rightGrief{
+  background-image: url(../images/wolverine.png), url(../images/griffes-droit.png);
+}
