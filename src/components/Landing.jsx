@@ -1,8 +1,18 @@
-import React from 'react'
+import React, {useRef, useEffect} from 'react'
 
 const Landing = () => {
+  const wolverine =  useRef(null)
+  useEffect(()=>{
+    setTimeout(()=>{
+      wolverine.current.classList.add('startingImg')
+    },2000)
+    setTimeout(()=>{
+      wolverine.current.classList.remove('startingImg')
+    },3000)
+  }, [])
+  console.log(wolverine);
   return (
-    <main>
+    <main ref = {wolverine} className = 'main-page' >
       <div className='div-Button-left'>
         <button className='btn-left'>Inscription</button>
       </div>

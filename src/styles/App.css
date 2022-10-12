@@ -83,6 +83,14 @@ footer{
   margin-top: 150px;
   cursor: pointer;
 }
+.btn-left:hover{
+  background-color: var(--white-color);
+  color: var(--blue-white-color);
+}
+.btn-right:hover{
+  background-color: var(--white-color);
+  color: var(--blue-white-color);
+}
 .div-Button-right{
   display: flex;
   flex: 0 1 35%; 
@@ -100,4 +108,7 @@ footer{
   text-decoration: none;
   margin-top: 150px;
   cursor: pointer;
+}
+.startingImg {
+  background-image: url(../images/xmen.png);
 }
